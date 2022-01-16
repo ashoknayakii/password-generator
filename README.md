@@ -1,1 +1,3 @@
-# password-generator
+# Password-Generator 
+
+The password generator is my first foray into using Javascript.  Here the HTML and styles were already provided.  The first problem consisted in needing to create variables for each type of character requested for the new password and creating an object that would allow the browser to assign only the requested values to that object.  The next task was to create an array of all the different characters and pass that array through the randomMath function allowing random characters from those arrays to be selected.  I then created a for loop to select as many characters from the randomMath function as the requested length for the password culminating in the final password which then needed to be joined.  Forthcoming potential additions in the future to allow me to save generated passwords to a personalized list.  
